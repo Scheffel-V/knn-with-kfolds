@@ -9,6 +9,7 @@ class Patient:
         self.diabetesPedigreeFunction = diabetes_pedigree_function
         self.age = age
         self.outcome = outcome
+        self.prediction = -1
 
     def is_positive(self):
         return self.outcome == 1
