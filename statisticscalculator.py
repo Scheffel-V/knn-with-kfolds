@@ -47,7 +47,7 @@ def get_results_statistics(results):
             else:
                 true_negatives = true_negatives + 1
 
-    acc = (true_positives + true_negatives) / len(results),
+    acc = (true_positives + true_negatives) / len(results)
     rec = true_positives / (true_positives + false_negatives)
     prec = true_positives / (true_positives + false_positives)
 

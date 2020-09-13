@@ -5,7 +5,7 @@ from statisticscalculator import StatisticsCalculator
 from knnclassifier import KnnClassifier
 
 
-K_FOLDS = 5
+K_FOLDS = 10
 K_NEIGHBORS = 5
 
 # PASSO 1: Lendo do arquivo e normalizando os valores:

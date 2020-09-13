@@ -54,7 +54,6 @@ class KnnClassifier:
 
             results.append(Result(testing_patient.outcome, prediction))
 
-        print("RESULTS LENGTH:" + str(len(results)))
         return results
 
     @staticmethod
