@@ -5,8 +5,8 @@
 ### Considerações sobre o programa
 
 O programa foi desenvolvido na linguagem Python versão 3.8.4, e utiliza os módulo: 
-1. numpy, para realizar o cálculo de desvio padrão.
-2. tabulate, para formatar o texto em formato de tabela.
+1. **numpy**, para realizar o cálculo de desvio padrão.
+2. **tabulate**, para formatar o texto em formato de tabela.
 
 ### Execução
 
