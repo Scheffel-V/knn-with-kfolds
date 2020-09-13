@@ -31,3 +31,6 @@ table = StatisticsCalculator.statistics_to_table(final_statistics)
 
 # PASSO 6: Saída do programa.
 print(table)
+f = open("output.txt", "a")
+f.write(table)
+f.close()
